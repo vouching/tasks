@@ -11,7 +11,7 @@ int main()
     {
         if(a%i==0)
         {
-            cout<<i;
+            cout<<i<<endl;
         }
         i++;
     }
