@@ -6,15 +6,15 @@ using namespace std;
 int main()
 {
     int i,cond;
-    double a;
+    int a;
     i=2;
     int g= (int) sqrt(a);
-    while(cond==1)
+    while(i<=a)
     {
-        if(g%i==0)
+        if(a%i==0)
         {
             cout<<i<<endl;
-            cond=1;
+            break;
         }
         i++;     
     }
