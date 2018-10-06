@@ -8,6 +8,7 @@ int main()
     int i,cond;
     int a;
     i=2;
+    cin>>a;
     while(i<=a)
     {
         if(a%i==0)
