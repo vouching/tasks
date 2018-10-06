@@ -10,7 +10,7 @@ int main()
 	cin>>s;
 	k=0;
 
-	while(a<=s)
+	while(a<s)
 	{
 		k++;
 		a=a*1.1;
