@@ -5,14 +5,16 @@
 using namespace std;
 int main()
 {
-    int a,i;
+    int a,i,cond;
     i=2;
-    while(i<=a)
+    while(cond==1)
     {
         if(a%i==0)
         {
             cout<<i<<endl;
+            cond=1;
         }
         i++;
+        
     }
 }
