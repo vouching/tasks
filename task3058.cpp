@@ -5,16 +5,17 @@
 using namespace std;
 int main()
 {
-    int a,i,cond;
+    int i,cond;
+    double a;
     i=2;
+    int g= (int) sqrt(a);
     while(cond==1)
     {
-        if(a%i==0)
+        if(g%i==0)
         {
             cout<<i<<endl;
             cond=1;
         }
-        i++;
-        
+        i++;     
     }
 }
