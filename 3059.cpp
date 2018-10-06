@@ -11,7 +11,7 @@ int main()
     while(b<=a);
     {
         cout<<b<<endl;
-        b*=2;
+        b=b*2;
     }
 
 }
