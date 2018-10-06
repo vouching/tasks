@@ -5,11 +5,15 @@
 using namespace std;
 int main()
 {
-	int s,a;
+	int a,s,k;
 	cin>>a;
+	
+	k=0;
 	s=1;
 	while(s<a)
-	s=s*2;
-	if(s==a)cout<<"YES";
-	else cout<<"NO";
+	{
+		k++;
+		s*=2;
+	}
+	cout<<k;
 }
