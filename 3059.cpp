@@ -8,9 +8,9 @@ int main()
     int a,b;
     cin>>a;
     b=1;
-    while(b<=a);
+    while(b<=a)
     {
-        cout<<b<<endl;
+        cout<<b<<" ";
         b=b*2;
     }
 
