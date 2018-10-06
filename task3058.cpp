@@ -8,14 +8,15 @@ int main()
     int i,cond;
     int a;
     i=2;
-    int g= (int) sqrt(a);
     while(i<=a)
     {
         if(a%i==0)
         {
             cout<<i<<endl;
+            cond=1;
             break;
         }
-        i++;     
+        i++;    
+        if(cond==1)i=a+1; 
     }
 }
