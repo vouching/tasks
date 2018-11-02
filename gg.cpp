@@ -5,18 +5,22 @@
 #include <vector>
 #include <iomanip>
 using namespace std;
+void step (int n, double a)
+{
+	double g=a;
+	int i=2;
+	while(i<=n)
+	{
+		a=a*g;
+		i++;
+	}
+	cout<<a;
+}
 int main()
 {
-	int a;
-	int s;
-	int d;
-	int f;
-	cin>>a>>s>>d>>f;
-	vector <int> as;
-	as.push_back(a);
-	as.push_back(s);
-	as.push_back(d);
-	as.push_back(f);
-	sort(as.begin(),as.end());
-	cout<<as[0];
+int n;
+double a;
+cin>>a>>n;
+step(n,a);
+
 }
